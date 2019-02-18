@@ -1,0 +1,13 @@
+i, p{
+  margin: 0;
+}
+p{
+  font-family: 'Bungee', cursive !important;
+}
+.NavItem{
+  color: #191919;
+  transition: 0.1s;
+}
+.NavItem:hover{
+  color: rgb(64, 205, 222);
+}

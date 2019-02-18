@@ -1,0 +1,62 @@
+
+.Layout{
+  background: #0C0E0C;
+  text-align: center;
+  background: #0C0E0C;
+  height: 97vh;
+  margin-top: -6vh
+}
+.emailLink{
+  font-size: 35px;
+  margin-top: 30px;
+  position: absolute;
+  font-family: 'Bungee Hairline', cursive !important;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.1s;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+a:hover{
+  width:30vw;
+  color: rgb(64, 205, 222);
+  border: 3px solid rgb(64, 205, 222);
+  margin-top: 20px;
+}
+:global(.fade-enter.fade-enter-active){
+  transition-delay: 300ms;
+  animation: fadeIn 300ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+}
+:global(.fade-enter-done){
+ opacity: 1;
+}
+:global(.fade-exit.fade-exit-active){
+opacity: 0;
+}
+:global(.fade-exit-done){
+opacity: 0;
+}
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100{
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0%{
+    opacity: 1;
+  }
+  100{
+    opacity: 0;
+  }
+}
+@media (max-device-width: 736px)  {
+  .emailLink{
+    font-size: 16px;
+  }
+}

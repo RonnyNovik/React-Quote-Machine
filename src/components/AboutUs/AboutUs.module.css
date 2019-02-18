@@ -1,0 +1,36 @@
+.AboutContainer{
+  width: 30%;
+  margin: 15vh auto;
+  line-height: 25px;
+  color: white;
+}
+.AboutTitle{
+  font-size: 50px;
+}
+.AboutText{
+  font-size: 20px;
+}
+@media (max-device-width: 1000px)  {
+  .AboutContainer{
+    width: 60%;
+    margin: 0 auto;
+    line-height: 25px;
+    color: white;
+  }
+}
+@media (max-device-width: 736px)  {
+  .AboutContainer{
+    width: 80%;
+    margin:0 auto;
+    line-height: 25px;
+    color: white;
+    padding-top: 10vh;
+  }
+  .AboutTitle{
+    font-size: 25px;
+      margin-right: 20vh;
+  }
+  .AboutText{
+    font-size: 10px;
+  }
+}
